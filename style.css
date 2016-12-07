@@ -1,47 +1,226 @@
+/* Ask Brandon about this! When I zoom into my page, everything shifts!*/
+
+
 body {
   background-color: white;
-  margin-right: 15%;
+  margin-right: 30%;
   margin-left: 0%;
+  margin-bottom: 0%;
 
 }
 
-header {
+
+
+
+h1 {
   color: white;
   font-family: sans-serif;
+  text-indent: 150px;
+  font-weight: lighter;
 }
+
 
 .logo {
 
-  width: 8%;
-  height: 8%;
+  width: 25px;
+  height: 14px;
+
+}
+
+header, footer {
+  margin-left: 10px;
+
+}
 
 
 }
+
+ul {
+  list-style: none;
+  display: block;
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+
+}
+
+
+
+li {
+  display: inline;
+  word-spacing: 20px;
+  text-transform: uppercase;
+  margin: 0;
+
+
+
+
+
+}
+
+.items {
+  color: tomato;
+  text-decoration: none;
+  font-size: 8px;
+  line-height: 0;
+  display: inline;
+  font-weight: normal;
+
+
+}
+
+.items, .more {
+  font-family: sans-serif;
+}
+
+.more {
+  text-transform: none;
+  word-spacing: normal;
+  padding-right: 20px;
+  display:inline;
+  font-weight: normal;
+  color: tomato;
+  text-decoration: none;
+  font-size: 8px;
+  display: inline;
+}
+
+
+
 
 a {
-  font-size: 14px;
   font-family: sans-serif;
   font-size: 12px;
+  display: block;
+  color: tomato;
 }
+
+#back {
+  font-family: sans-serif;
+  font-size: 8px;
+  display: block;
+  color: white;
+  text-indent: 150px;
+  text-decoration: none;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color:darkred;
+  text-decoration: underline;
+}
+
+
+
 
 div{
   background-color: tomato;
   padding-left: 0px;
+  margin-right: 200px;
+  height: 400px;
+  padding-top: 20px;
+  font-family: sans-serif;
+
+
+
 }
 
 #main {
   width: 50%;
-  height: 50%;
+  height: 45%;
+  display: block;
+  margin: auto auto;
+
 }
 
-#shoe {
-  font-size: 14px;
+section{
+  margin: auto auto;
   display: block;
+  margin: auto auto;
+
+}
+
+#date {
+  font-size: 8px;
+  text-transform: uppercase;
+  color: darkred;
+  text-indent: 150px;
+}
+
+
+
+#shoe {
+  font-size: 10px;
   color: white;
+  display: inline;
+}
+
+#reviews {
+  font-size: 10px;
+  color: darkred;
+  display: inline;
+
+}
+
+#border {
+  border: 1px dashed darkred;
+  border-right: none;
+  border-left: none;
+  width: 50%;
+  padding: 10px;
+
 }
 
 #price {
-  font-size: 14px
+  font-size: 14px;
+  margin-right: 150px;
+  margin-left: 150px;
+  color: white;
+  display: inline;
+  }
+
+  .dollar:before {
+    content: '$';
+    font-size: 60%;
+    vertical-align: top;
+  }
+
+  .zeros {
+    vertical-align: top;
+    font-size: 70%;
+  }
+
+
+  .button-buy {
+       background-color: white;
+       color: tomato;
+       display: inline;
+       padding: 7px 15px;
+       border-radius: 5%;
+       font-family: sans-serif;
+       text-decoration: none;
+       text-transform: uppercase;
+       font-size: 8px;
+
+  }
+
+
+  #purchase {
+    padding-top: 20px;
+
+
+  }
+
+#product {
+  font-size: 20px;
+  color: tomato;
+}
+
+#details {
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 h3 {
@@ -68,9 +247,13 @@ img {
   color: white;
 }
 
-#nav {
+.nav {
   background-color: white;
   font-family: sans-serif;
   color: #8C5C63;
   font-size: 13px;
+  margin-bottom: 0;
+
+
+
 }
