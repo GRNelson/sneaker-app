@@ -1,39 +1,27 @@
-/* Ask Brandon about this! When I zoom into my page, everything shifts!*/
-
 
 body {
   background-color: white;
-  margin-right: 30%;
+  margin-right: 20px;
   margin-left: 0%;
-  margin-bottom: 0%;
-
+  margin-bottom: 5%;
 }
 
 
-
-
-h1 {
-  color: white;
-  font-family: sans-serif;
-  text-indent: 150px;
-  font-weight: lighter;
+/* HEADER */
+header {
+  display: inline;
 }
 
 
 .logo {
 
-  width: 25px;
-  height: 14px;
-
+  width: 47px;
+  height: 25px;
+  float: left;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 
-header, footer {
-  margin-left: 10px;
-
-}
-
-
-}
 
 ul {
   list-style: none;
@@ -41,30 +29,26 @@ ul {
   margin: 0;
   padding-left: 0;
   padding-right: 0;
-
 }
 
 
-
-li {
+.uppercase {
   display: inline;
-  word-spacing: 20px;
   text-transform: uppercase;
   margin: 0;
-
-
-
-
-
 }
+
+
 
 .items {
   color: tomato;
   text-decoration: none;
-  font-size: 8px;
+  font-size: 12px;
   line-height: 0;
-  display: inline;
+  display: inline-block;;
   font-weight: normal;
+  padding-right: 10px;
+  padding-left: 10px;
 
 
 }
@@ -76,91 +60,93 @@ li {
 .more {
   text-transform: none;
   word-spacing: normal;
-  padding-right: 20px;
-  display:inline;
+  display:inline-block;
   font-weight: normal;
   color: tomato;
   text-decoration: none;
-  font-size: 8px;
-  display: inline;
-}
-
-
-
-
-a {
-  font-family: sans-serif;
   font-size: 12px;
-  display: block;
-  color: tomato;
-}
-
-#back {
-  font-family: sans-serif;
-  font-size: 8px;
-  display: block;
-  color: white;
-  text-indent: 150px;
-  text-decoration: none;
-  padding-bottom: 10px;
-  text-transform: uppercase;
+  padding-right: 10px;
+  float: right;
+  padding-bottom: 20px;
 }
 
 a:hover {
   color:darkred;
   text-decoration: underline;
+
 }
 
+nav {
+  padding-top: 10px;
+}
 
+/* FIRST SECTION*/
 
-
-div{
+#first {
   background-color: tomato;
-  padding-left: 0px;
-  margin-right: 200px;
-  height: 400px;
+  margin:0;
+  height: 45em;
   padding-top: 20px;
   font-family: sans-serif;
-
-
-
+  display: inline-block;
+  width: 100%;
 }
+
+
+
+h1 {
+  color: white;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 40px;
+}
+
+#first-left {
+  display:inline-block;
+  margin-left: 100px;
+  width: 70%;
+  float:left;
+}
+
+#back {
+  font-family: sans-serif;
+  font-size: 12px;
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
 
 #main {
   width: 50%;
   height: 45%;
-  display: block;
-  margin: auto auto;
-
 }
 
-section{
-  margin: auto auto;
-  display: block;
-  margin: auto auto;
-
+#first-right {
+  display: inline-block;
+  width: 30%;
+  float:right;
 }
 
 #date {
-  font-size: 8px;
+  font-size: 12px;
   text-transform: uppercase;
   color: darkred;
-  text-indent: 150px;
 }
 
-
-
 #shoe {
-  font-size: 10px;
+  font-size: 14px;
   color: white;
-  display: inline;
+  letter-spacing: 1px;
+  padding-bottom: 3px;
 }
 
 #reviews {
-  font-size: 10px;
+  font-size: 14px;
   color: darkred;
-  display: inline;
-
+  padding-top: 10px;
 }
 
 #border {
@@ -169,16 +155,14 @@ section{
   border-left: none;
   width: 50%;
   padding: 10px;
-
 }
 
 #price {
-  font-size: 14px;
-  margin-right: 150px;
-  margin-left: 150px;
+  font-size: 25px;
   color: white;
   display: inline;
-  }
+  padding-top: 20px;
+}
 
   .dollar:before {
     content: '$';
@@ -188,63 +172,132 @@ section{
 
   .zeros {
     vertical-align: top;
-    font-size: 70%;
+    font-size: 60%;
   }
 
 
   .button-buy {
        background-color: white;
        color: tomato;
-       display: inline;
-       padding: 7px 15px;
+       display: inline-block;
+       padding: 13px 23px;
        border-radius: 5%;
        font-family: sans-serif;
        text-decoration: none;
        text-transform: uppercase;
-       font-size: 8px;
-
-  }
-
+       font-size: 14px;
+       margin-left: 10px;
+}
 
   #purchase {
     padding-top: 20px;
+    display: inline-block;
 
+}
 
-  }
+/* WHITE SECTION*/
 
-#product {
-  font-size: 20px;
+.white-section {
+  width: 100%;
+  background-color: white;
+  margin-left: 80px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+
+}
+
+#headings-content {
+  font-style: italic;
+}
+
+.more-details {
+  font-size: 14px;
   color: tomato;
+  word-spacing: 10px;
+
 }
 
-#details {
-    background-color: white;
-    padding-top: 5px;
-    padding-bottom: 5px;
+#second-list{
+  list-style: none;
+  margin-left: 80px;
 }
 
-h3 {
-  font-family: sans-serif;
+
+
+
+
+/* THIRD SECTION*/
+
+
+
+#shop-shoes {
+  font-family: arial;
   color: #4d2800;
+  background-color: lavenderblush;
+  text-align: center;
+  font-size: 18px;
+  padding: 3px;
+
 }
-p {
+
+#third {
+  background-color: tomato;
+  height: 30em;
+  font-family: sans-serif;
+  display: inline-block;
+  width:100%;
+  display: inline-block;
+}
+
+.bottom {
+  width: 30%;
+  height: 30%;
+  display: inline-block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.content {
   color: #8C5C63;
   font-family: sans-serif;
   font-size: 14px;
 }
 
-img {
-  width: 40%;
-  height: 40%;
-}
-
-
 
 .sneakers {
-  text-decoration: underline;
-  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
   font-family: sans-serif;
   color: white;
+}
+
+#first-shoe {
+  float: left;
+}
+
+#second-shoe {
+
+}
+
+#third-shoe {
+  float: right;
+}
+
+/* FOOTER */
+
+footer {
+  display: inline;
+
+}
+li {
+  display: inline;
+  text-transform: none;
+  margin: 0;
+  padding-left: 2px;
+  padding-right: 5px;
+  color: gray;
 }
 
 .nav {
@@ -252,8 +305,18 @@ img {
   font-family: sans-serif;
   color: #8C5C63;
   font-size: 13px;
-  margin-bottom: 0;
+  margin-bottom: 0px;
+}
 
 
+a {
+  font-family: sans-serif;
+  display: block;
+  color: gray;
+}
 
+#bottom-right-nav {
+  float: right;
+  display: flex;
+  font-size: 12px;
 }
