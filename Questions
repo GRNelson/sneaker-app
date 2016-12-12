@@ -1,0 +1,20 @@
+1. An "operator" is a symbol that links two variables. The 4 operators are:
+  (+, -, *, / ) and they work like normal math and follow PEMDAS.
+
+2. The 5 primitive types are: string, boolean, undefined, null
+  and number.
+
+  3. Define primitive types:
+
+  45 = Number
+  "I heart JS" = String
+  'Pizza is life'= String
+  3.4 = Number
+  true= Boolean
+  " " = Undefined
+  false = Null
+  '5,555' = String
+
+  4. Expressions give value to variables. In web design,
+      a specific expression would give functionality to
+      an interactive website.

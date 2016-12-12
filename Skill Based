@@ -1,0 +1,18 @@
+Assignment:
+var myNAME= Gina
+
+Equality:
+(4 + 4 === 8;)
+
+Concatenation:                       Result:
+var str1 = "I'm"                     I'm hungry
+var str2 = "hungry"
+var res2 = str1 + str2
+
+console.log()
+
+Math:
+(2 * 8 === 16)
+
+
+var res2 = str1 +" "+str2

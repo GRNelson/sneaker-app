@@ -1,0 +1,12 @@
+An "operator" examines two values 
+
+Primitives are the types of values the variables names can have.
+The 5 types are string, number, boolean, undefined, and null.
+-String: the text within double or single quotes
+-Number: Simply, a number
+-BooLean: Two values, true or false
+-Undefined: a value that has not yet been defined
+-Null: the variable has no value
+
+The components of an expression are
+  value operator value
